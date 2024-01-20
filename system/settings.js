@@ -27,10 +27,10 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 global.owner = [
   ['-'],
   ['-'],
-  ['628816609112', 'Takashi Kemii', 'contact@kemii.my.id', true]
+  ['51902247905', 'kencito', 'contact@kemii.my.id', true]
 ] // Put your number here
-global.mods = ['-'] // Moderator
-global.prems = ['-'] // Premium
+global.mods = ['51902247905'] // Moderator
+global.prems = ['51902247905'] // Premium
 global.rose = '-';
 global.xyro = '-';
 global.btc = '-';
@@ -75,11 +75,11 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'Kiku - Wabot'
-  var sticker_author = 'Kemii Elisabeth'
+  var sticker_name = '𝐂𝐎𝐃𝐄𝐗'
+  var sticker_author = '𝐊𝐄𝐍𝐍'
 } else {
-  var sticker_name = 'Kiku - Wabot'
-  var sticker_author = 'Kemii Elisabeth'
+  var sticker_name = '𝐂𝐎𝐃𝐄𝐗'
+  var sticker_author = '𝐊𝐄𝐍𝐂'
 }
 
 const file_exif = "lib/exif.json"
@@ -95,20 +95,20 @@ global.minety = pickRandom(['application/msword', 'application/vnd.ms-excel', 'a
 global.kiku = 'application/vnd.android.package-archive'
 
 // Database
-global.version = '5.0.3'
-global.sessionName = 'salsa'
-global.gcbot = 'https://chat.whatsapp.com/FMzkNwRU9Kg2OG2hq4F0M0'
-global.instagram = 'https://instagram.com/kemii.learning'
-global.namebot = '© Kiku-Wabot v5.0.3 (Public Bot)'
+global.version = '1.0'
+global.sessionName = '𝐤𝐞𝐧𝐧'
+global.gcbot = 'https://whatsapp.com/channel/0029VaFgPI53WHTcT0I6480Z'
+global.instagram = 'https://whatsapp.com/channel/0029VaFgPI53WHTcT0I6480Z'
+global.namebot = '© 𝐜𝐨𝐝𝐞𝐱 v1 (privado Bot)'
 global.thumb = 'https://telegra.ph/file/7b5416e93b4423845762d.jpg'
 global.thumbnail = 'https://telegra.ph/file/7b5416e93b4423845762d.jpg'
 global.myfile = fs.readFileSync(`./media/xfile.pdf`)
 global.thumb2 = fs.readFileSync('./media/thumbnail.mp4')
 global.qris = 'https://telegra.ph/file/bcb93fafb22f139ff1512.jpg'
 global.email = 'kiku.wabot@gmail.com'
-global.creator = "628816609112@s.whatsapp.net"
+global.creator = "51902247905@s.whatsapp.net"
 global.nomorbot = '-'
-global.nomorown = '628816609112'
+global.nomorown = '51902247905'
 global.pairingNumber = ''
 
 // Harga Nokos
@@ -127,10 +127,10 @@ global.locs = '1'
 global.sig = '-'
 global.syt = '-'
 global.sgh = '-'
-global.sgc = 'https://chat.whatsapp.com/FMzkNwRU9Kg2OG2hq4F0M0'
-global.swa = 'https://wa.me/263734408604'
+global.sgc = 'https://whatsapp.com/channel/0029VaFgPI53WHTcT0I6480Z'
+global.swa = 'https://wa.me/51902247905'
 global.swb = '-' // Link Discord
-global.snh = 'https://nhentai.net/g/365296/' // Link nhentai
+global.snh = 'https://whatsapp.com/channel/0029VaFgPI53WHTcT0I6480Z' // Link nhentai
 
 // Pembayaran
 global.pdana = '~Not Found~'
@@ -150,19 +150,19 @@ global.useMulti = true
 global.autoread = true
 
 // Watermark
-global.packname = 'Kiku - Wabot'
-global.author = '// Elisabeth'
-global.wm = 'Kiku - Wabot'
-global.wm2 = 'Salsa Javanese'
+global.packname = '𝐂𝐎𝐃𝐄𝐗'
+global.author = '// 𝐊𝐄𝐍𝐍'
+global.wm = '𝐂𝐎𝐃𝐄𝐗'
+global.wm2 = '𝐊𝐄𝐍𝐍'
 global.bottime = `Time: ${wktuwib}`
 global.botdate = `Date: ${week} ${date}\nTime: ${wktuwib}`
 global.titlebot = `${global.wm}`
-global.danied = 'A K S E S  K A M U  D I  T O L A K!!'
+global.danied = '𝐂𝐎𝐃𝐄𝐗!!'
 global.done = '```Success...\nDont forget to donate```'
-global.packname = 'Kiku - Wabot'
-global.author = 'Takashi Kemii'
-global.nameown = 'KemiiSalsabila'
-global.wait = 'Wait a moment... '
+global.packname = '𝐂𝐎𝐃𝐄𝐗'
+global.author = '𝐊𝐞𝐧𝐧'
+global.nameown = '𝐊𝐄𝐍𝐍'
+global.wait = '𝐞𝐬𝐩𝐞𝐫𝐚... '
 
 // Tampilan
 global.htki =  '⬣───「' // Hiasan kiri
